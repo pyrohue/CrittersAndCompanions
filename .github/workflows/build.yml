@@ -32,17 +32,17 @@ jobs:
       - name: Upload common artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: Package
+          name: crittersandcompanions-common-1.21.1.jar
           path: common/build/libs
 
       - name: Upload NeoForge artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: Package
+          name: crittersandcompanions-neoforge-1.21.1.jar
           path: neoforge/build/libs
 
       - name: Upload Fabric artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: Package
+          name: crittersandcompanions-fabric-1.21.1.jar
           path: fabric/build/libs
